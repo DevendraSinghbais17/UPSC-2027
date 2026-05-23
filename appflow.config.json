@@ -1,8 +1,11 @@
 {
-  "web": {
-    "build": {
-      "command": "npx vite build",
-      "directory": "dist"
+  "apps": [
+    {
+      "appId": "com.devendra.upsctracker",
+      "root": ".",
+      "webDir": "dist",
+      "dependencyInstallCommand": "npm install",
+      "webBuildCommand": "npx vite build"
     }
-  }
+  ]
 }
