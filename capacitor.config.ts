@@ -1,8 +1,10 @@
-const config = {
+import type { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
   appId: 'com.devendra.upsctracker',
   appName: 'UPSC Tracker',
   webDir: 'dist',
   bundledWebRuntime: false,
 };
 
-module.exports = config;
+export default config;
